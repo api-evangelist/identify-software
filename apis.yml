@@ -1,8 +1,24 @@
 aid: identify-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/identify-software.png
 name: Identify Software
-description: Identify Software is a company surfaced as a portfolio company of earlybird and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Identify Software Ltd. was an Israeli enterprise-software company founded in 1996 in
+  Petah Tikva by Yochi Slonim, backed by earlybird (invested 2001). It built application performance
+  management, software-testing, and business-process-automation tooling that helped IT teams reproduce,
+  diagnose, and resolve production application problems, best known for its AppSight problem-resolution
+  suite. It is a legacy portfolio entry rather than an active API provider: the identify.software domain
+  is parked/for-sale, there is no live developer portal, documentation, or public API surface to enrich,
+  so this profile is retained as a historical VC-portfolio lead only.'
 url: https://raw.githubusercontent.com/api-evangelist/identify-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,32 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: inactive
+x-status-reason: legacy company; identify.software domain parked/for-sale; no live developer surface
+x-founded: '1996'
+x-headquarters: Petah Tikva, Israel
+x-founder: Yochi Slonim
+x-source-detail: https://earlybird.com/companies/identify-software-ltd
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Enterprise Software
+- Application Performance Management
+- Software Testing
+- IT Operations
+- Business Process Automation
+- Israel
+- Legacy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
